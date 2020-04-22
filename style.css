@@ -5,6 +5,10 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
 body{
     overflow-x:hidden;
 }
@@ -146,8 +150,8 @@ a.nav-link:hover{
       padding:2em;
       z-index:10;
       /* box-shadow:10px 20px 5px rgba(0,0,0,0.788); */
-      box-shadow:         5px 7px 8px 8px rgba(0, 0, 0, 0.349);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-      color:#1262A1;
+      /* box-shadow:         5px 7px 8px 8px rgba(0, 0, 0, 0.349); */
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.452);
     }
   
     .precautions-text{
@@ -162,4 +166,5 @@ a.nav-link:hover{
   {
       padding-left:75px;
       margin-top:10rem;
+      padding-right:100px;
   }
