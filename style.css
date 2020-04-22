@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    overflow-x:hidden;
+}
+.nav-container
+{
+    font-size:18px;
+    font-family:'Roboto',sans-serif;
+}
+
+
+nav{
+    margin-bottom:50px;
+}
+
+.navbar-brand{
+    margin-left:25px;
+}
+
+.navbar-custom .navbar-brand{
+    color:#000;
+}
+
+.navbar-nav{
+  margin-right:160px;
+}
+/* 
+.navbar-nav{
+    margin-top:25px;
+} */
+
+.navbar-nav > li{
+    padding-left:25px;
+    padding-right:25px;
+  }
+
+  .navbar-light .navbar-toggler{
+    outline:none;
+  }
+/* 
+  #reviews{
+    margin-right:90px;
+  } */
+  /* .navbar-nav > li:hover{
+      border-bottom:2px solid #121212;
+      padding-right:0;
+} */
+
+hr{
+    border-bottom:2px solid rgb(24, 122, 197);
+    margin-left:100px;
+    margin-right:100px;
+}
+
+a.nav-link:hover{
+  border-bottom:2px solid #1262A1;
+}
+
+.logo a{
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.navbar-default {
+    background-color: white !important;
+}
+
+.nav-link {
+    color:black !important;
+}
+
+/* Home */
+
+.home-text{
+    padding-right:150px;
+}
+
+.home-text h1{
+    font-weight:bolder;
+}
+.home-text h4{
+    font-weight:500;
+    color:#1262A1;
+}
+
+#Home{
+    padding:6rem 5rem;
+}
+
+
+.showcase-btn {
+    margin-left: -17px;
+    padding: 15px 35px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    background-color:rgb(31, 130, 206);
+    color:#fff;
+    border-radius:50px;
+  }
+  
+  .showcase-btn:active,
+  .showcase-btn:focus {
+    outline: none;
+  }
+
+  /*About */
+
+  .about-text h2{
+      color:#1262A1;
+      font-weight:bold;
+  }
+  .about-image
+  {
+      padding-left:50px;
+  }
+
+  .about-text{
+      max-width:700px;
+  }
+
+  /* Precautions Container */
+
+  .precautions-contain
+  {
+      margin-top:50px;
+      padding-right:100px;
+      padding-left:50px;
+      margin-bottom:50px;
+  }
+
+  .precautions-container{
+      display:grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(2,1fr);
+      grid-gap:2em;
+      grid-row-gap:3em;
+  }
+
+  .precaution-1,.precaution-2,.precaution-3,.precaution-4{
+      padding:2em;
+      z-index:10;
+      /* box-shadow:10px 20px 5px rgba(0,0,0,0.788); */
+      box-shadow:         5px 7px 8px 8px rgba(0, 0, 0, 0.349);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+      color:#1262A1;
+    }
+  
+    .precautions-text{
+        color:black;
+    }
+
+  .precautions-container p{
+      max-width:400px;
+  }
+
+  .virus-img
+  {
+      padding-left:75px;
+      margin-top:10rem;
+  }
