@@ -144,6 +144,7 @@ a.nav-link:hover{
       grid-template-rows: repeat(2,1fr);
       grid-gap:2em;
       grid-row-gap:3em;
+      padding-left:30px;
   }
 
   .precaution-1,.precaution-2,.precaution-3,.precaution-4{
